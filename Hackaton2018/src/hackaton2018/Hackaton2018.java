@@ -6,6 +6,7 @@
 package hackaton2018;
 
 import user.User;
+import device.Device;
 
 /**
  *
@@ -23,6 +24,12 @@ public class Hackaton2018 {
         user.setAge(18);
         user.setName("dadobe");
         System.out.println("age:"  + user.getAge() + " name:" +  user.getName());
+        
+        Device d1 = new Device("Smartphone","Samsung A5");
+        //d1.setType ("Smartphone");
+        //d1.setModel ("Samsung A5");
+        System.out.println(d1.toString());
+        
         
     }
     
