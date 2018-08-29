@@ -7,6 +7,7 @@ package hackaton2018;
 
 import user.User;
 import device.Device;
+import location.Location;
 
 /**
  *
@@ -30,6 +31,8 @@ public class Hackaton2018 {
         //d1.setModel ("Samsung A5");
         System.out.println(d1.toString());
         
+        Location l1 = new Location("Spain", 8860);
+        System.out.println(l1.toString2());
         
     }
     
