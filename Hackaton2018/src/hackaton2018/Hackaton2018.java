@@ -4,6 +4,7 @@ package hackaton2018;
 import user.User;
 import device.Device;
 import location.Location;
+import vehicle.Vehicle;
 
 /**
  *
@@ -29,6 +30,11 @@ public class Hackaton2018 {
         
         Location l1 = new Location("Spain", 8860);
         System.out.println(l1.toString2());
+        
+        Vehicle v1 = new Vehicle();
+        v1.setModel("Seat Ibiza");
+        v1.setColor("Blue");
+        System.out.println(v1.toString3());
         
     }
     
