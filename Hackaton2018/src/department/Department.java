@@ -13,15 +13,7 @@ public class Department {
     
 	public Department() {
 	}
-
-	public int getDeptNumber() {
-		return deptNumber;
-	}
-
-	public void setDeptNumber(int deptNumber) {
-		this.deptNumber = deptNumber;
-	}
-
+        
 	public String getDept() {
 		return dept;
 	}

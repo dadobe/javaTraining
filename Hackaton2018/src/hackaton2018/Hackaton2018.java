@@ -39,8 +39,7 @@ public class Hackaton2018 {
         
         Department dep1 = new Department();
         dep1.setDept("Accounting");
-        dep1.setDeptNumber(3);
-        System.out.println(dep1.getDept() + " " + dep1.getDeptNumber());
+        System.out.println(dep1.getDept());
         
     }
 }
