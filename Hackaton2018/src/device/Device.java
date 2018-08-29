@@ -19,19 +19,19 @@ public class Device {
         this.model = model;
     }
     
-    String getType(){
+    public String getType(){
         return type;
     }
     
-    void SetType(String type){
+    public void SetType(String type){
         this.type=type;
     }
     
-     String getModel(){
+    public String getModel(){
         return model;
     }
     
-    void SetModel(String model){
+    public void SetModel(String model){
         this.model=model;
     }
     

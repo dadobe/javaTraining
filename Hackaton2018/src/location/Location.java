@@ -20,19 +20,19 @@ public class Location {
         this.zip=zip;
     }
     
-    String setCountry(){
+    public String setCountry(){
         return country;
     }
     
-    int setZip(){
+    public int setZip(){
         return zip;
     }
     
-    void getCountry(String country){
+    public void getCountry(String country){
         this.country = country;
     }
     
-    void getZip(int zip){
+    public void getZip(int zip){
         this.zip=zip;
     }
     
