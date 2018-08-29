@@ -5,6 +5,7 @@ import user.User;
 import device.Device;
 import location.Location;
 import vehicle.Vehicle;
+import department.Department;
 
 /**
  *
@@ -36,6 +37,10 @@ public class Hackaton2018 {
         v1.setColor("Blue");
         System.out.println(v1.toString3());
         
+        Department dep1 = new Department();
+        dep1.setDept("Accounting");
+        dep1.setDeptNumber(3);
+        System.out.println(dep1.getDept() + " " + dep1.getDeptNumber());
+        
     }
-    
 }
